@@ -24,19 +24,23 @@ Blocks.coreShard.itemCapacity = 99999
 //Duo & scatter
 Blocks.duo.ammoTypes.get(Items.copper).damage = 999999
 Blocks.duo.health = 999999
+Blocks.duo.ammoTypes.get(Items.copper).fragBullets = 1
+Blocks.duo.ammoTypes.get(Items.copper).fragBullet = Blocks.duo.ammoTypes.get(Items.copper)
 Blocks.scatter.targetGround = true
 Blocks.scatter.health = 999999
+Blocks.scatter.ammoTypes.get(Items.lead).collidesGround = true
+Blocks.scatter.ammoTypes.get(Items.lead).fragBullets = 1
+Blocks.scatter.ammoTypes.get(Items.lead).fragBullet = Blocks.duo.ammoTypes.get(Items.copper)
 
 // wol
 Blocks.copperWall.health = 999999
 
 //drill
 Blocks.mechanicalDrill.health = 999999
-Blocks.mechanicalDrill.drillTime = 0.0000001
+Blocks.mechanicalDrill.drillTime = 1
 Blocks.mechanicalDrill.tier = 100
 
 //conveyor
 Blocks.conveyor.speed = 999999
 Blocks.conveyor.displayedSpeed = 999999
 Blocks.conveyor.health = 666666
-
