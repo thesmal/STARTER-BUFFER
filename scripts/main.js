@@ -4,6 +4,8 @@
 const fireball = new FireBulletType
 fireball.damage = 900
 fireball.lifetime = 500
+fireball.fragBullets = 10
+fireball.fragBullet = Blocks.duo.ammoTypes.get(Items.silicon)
 
 
 
@@ -24,13 +26,9 @@ Blocks.coreShard.itemCapacity = 99999
 //Duo & scatter
 Blocks.duo.ammoTypes.get(Items.copper).damage = 999999
 Blocks.duo.health = 999999
-Blocks.duo.ammoTypes.get(Items.copper).fragBullets = 1
-Blocks.duo.ammoTypes.get(Items.copper).fragBullet = Blocks.duo.ammoTypes.get(Items.copper)
 Blocks.scatter.targetGround = true
 Blocks.scatter.health = 999999
 Blocks.scatter.ammoTypes.get(Items.lead).collidesGround = true
-Blocks.scatter.ammoTypes.get(Items.lead).fragBullets = 1
-Blocks.scatter.ammoTypes.get(Items.lead).fragBullet = Blocks.duo.ammoTypes.get(Items.copper)
 
 // wol
 Blocks.copperWall.health = 999999
