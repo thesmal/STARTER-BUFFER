@@ -1,6 +1,6 @@
 {
-  "name": "ALPHA BUFFER",
-  "version": "4.0",
+  "name": "STARTER BUFFER",
+  "version": "5",
   "author": "LittleBloo",
   "description": '''
   Buffs the alpha unit so its better to stay on the shard core (smallest one),
@@ -8,6 +8,10 @@
   Changed bullet to fire bullet (shard core has alot of hp),
   mining speed, item capacity is also improved,
   Have a good day!
+  duo and scatter is also buffed
+  copper walls are now the best defense in the game
+  the mechanical drill is also the best drill and can mine anything
+  normal conveyors are also the best
 
   it's my first mod
   May have some bugs so please tell me any and also tell me code improvements :D
