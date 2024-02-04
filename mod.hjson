@@ -1,0 +1,19 @@
+{
+  "name": "ALPHA BUFFER",
+  "version": "4.0",
+  "author": "LittleBloo",
+  "description": '''
+  Buffs the alpha unit so its better to stay on the shard core (smallest one),
+  adds a ton of hp to the alpha,
+  Changed bullet to fire bullet (shard core has alot of hp),
+  mining speed, item capacity is also improved,
+  Have a good day!
+
+  it's my first mod
+  May have some bugs so please tell me any and also tell me code improvements :D
+  
+  
+  '''
+  "minGameVersion": 136
+  "hidden": false
+}
