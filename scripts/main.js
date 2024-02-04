@@ -1,3 +1,5 @@
+
+
 // declare a fireball bullet
 const fireball = new FireBulletType
 fireball.damage = 900
@@ -13,8 +15,28 @@ UnitTypes.alpha.range = 200
 UnitTypes.alpha.mineTier = 100
 UnitTypes.alpha.itemCapacity = 99999
 UnitTypes.alpha.mineSpeed = 999999
+UnitTypes.alpha.buildSpeed = 999999
 
-
+// Core upgrade
 Blocks.coreShard.health = 99999
 Blocks.coreShard.itemCapacity = 99999
+
+//Duo & scatter
+Blocks.duo.ammoTypes.get(Items.copper).damage = 999999
+Blocks.duo.health = 999999
+Blocks.scatter.targetGround = true
+Blocks.scatter.health = 999999
+
+// wol
+Blocks.copperWall.health = 999999
+
+//drill
+Blocks.mechanicalDrill.health = 999999
+Blocks.mechanicalDrill.drillTime = 0.0000001
+Blocks.mechanicalDrill.tier = 100
+
+//conveyor
+Blocks.conveyor.speed = 999999
+Blocks.conveyor.displayedSpeed = 999999
+Blocks.conveyor.health = 666666
 
