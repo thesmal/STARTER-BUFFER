@@ -1,9 +1,3 @@
-let BT = true
-//lightning dude
-const zapzap = new LightningBulletType
-zapzap.damage = 99999999
-zapzap.range = 100
-
 // declare a fireball bullet
 const fireball = new FireBulletType
 fireball.damage = 900
@@ -55,14 +49,4 @@ Blocks.liquidSource.buildVisibility = BuildVisibility.shown
 Blocks.stoneWall.destructible = true
 Blocks.stoneWall.buildVisibility = BuildVisibility.shown
 
-function wut() {
-  BT = !BT
-}
 
-
-  //do something based on the value of BT
-if(BT){
-  UnitTypes.alpha.weapons.get(0).bullet = fireball
-}else{
-  UnitTypes.alpha.weapons.get(0).bullet = zapzap
-}
