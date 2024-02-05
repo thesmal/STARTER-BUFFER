@@ -1,4 +1,8 @@
-
+let BT = true
+//lightning dude
+zapzap = new LightningBulletType
+zapzap.damage = 99999999
+zapzap.range = 100
 
 // declare a fireball bullet
 const fireball = new FireBulletType
@@ -50,4 +54,25 @@ Blocks.payloadSource.buildVisibility = BuildVisibility.shown
 Blocks.liquidSource.buildVisibility = BuildVisibility.shown
 Blocks.stoneWall.destructible = true
 Blocks.stoneWall.buildVisibility = BuildVisibility.shown
+
+//listen for the client load event
+Events.on(ClientLoadEvent, () => {
+  //get the script console fragment
+  let scriptfrag = Vars.ui.scriptfrag;
+
+  //check if the last command is "wut"
+  if(scriptfrag.getLastCommand() == "wut"){
+    //print "lol" to the console
+    scriptfrag.addMessage("[accent]lol[]");
+    //toggle the value of BT
+    BT = !BT;
+  }
+
+  //do something based on the value of BT
+  if(BT){
+    UnitTypes.alpha.weapons.get(0).bullet = fireball
+  }else{
+    UnitTypes.alpha.weapons.get(0).bullet = zapzap
+  }
+});
 
