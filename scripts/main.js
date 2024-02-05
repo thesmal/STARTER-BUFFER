@@ -1,9 +1,10 @@
 
 
 // declare a fireball bullet
-const fireball = new FireBulletType
+const fireball = new BasicBulletType
 fireball.damage = 900
 fireball.lifetime = 500
+fireball.lightColor = 00ff00
 fireball.fragBullets = 10
 fireball.fragBullet = Blocks.duo.ammoTypes.get(Items.silicon)
 
@@ -46,8 +47,8 @@ Blocks.conveyor.health = 666666
 
 //other junk
 Blocks.itemSource.buildVisibility = BuildVisibility.shown
-Blocks.payloadSorce.buildVisibility = BuildVisibility.shown
-Blocks.liquidSorce.buildVisibility = BuildVisibility.shown
+Blocks.payloadSource.buildVisibility = BuildVisibility.shown
+Blocks.liquidSource.buildVisibility = BuildVisibility.shown
 Blocks.stoneWall.destructible = true
 Blocks.stoneWall.buildVisibility = BuildVisibility.shown
 
