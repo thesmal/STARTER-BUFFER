@@ -43,6 +43,9 @@ Blocks.conveyor.speed = 999999
 Blocks.conveyor.displayedSpeed = 999999
 Blocks.conveyor.health = 666666
 
-//itemsource
+//other junk
 Blocks.itemSource.buildVisibility = BuildVisibility.shown
 Blocks.itemSource.sandboxOnly = false
+Blocks.stoneWall.destructible = true
+Blocks.stoneWall.buildVisibility = BuildVisibility.shown
+Blocks.stoneWall.editorOnly = false
