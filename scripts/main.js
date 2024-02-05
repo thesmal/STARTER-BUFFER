@@ -55,13 +55,7 @@ Blocks.liquidSource.buildVisibility = BuildVisibility.shown
 Blocks.stoneWall.destructible = true
 Blocks.stoneWall.buildVisibility = BuildVisibility.shown
 
-//get the console input field
-let input = Vars.ui.scriptfrag.getTextField();
-
-//get the text input from the console
-let text = input.getText();
-
-if (text == "wut") {
+function wut() {
   BT = !BT
 }
 
