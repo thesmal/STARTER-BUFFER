@@ -41,9 +41,13 @@ Blocks.mechanicalDrill.tier = 100
 //conveyor
 Blocks.conveyor.speed = 999999
 Blocks.conveyor.displayedSpeed = 999999
+Blocks.conveyor.itemCapacity = 15
 Blocks.conveyor.health = 666666
 
 //other junk
 Blocks.itemSource.buildVisibility = BuildVisibility.shown
+Blocks.payloadSorce.buildVisibility = BuildVisibility.shown
+Blocks.liquidSorce.buildVisibility = BuildVisibility.shown
 Blocks.stoneWall.destructible = true
 Blocks.stoneWall.buildVisibility = BuildVisibility.shown
+
