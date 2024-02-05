@@ -61,9 +61,8 @@ function wut() {
 
 
   //do something based on the value of BT
-  if(BT){
-    UnitTypes.alpha.weapons.get(0).bullet = fireball
-  }else{
-    UnitTypes.alpha.weapons.get(0).bullet = zapzap
-  }
-});
+if(BT){
+  UnitTypes.alpha.weapons.get(0).bullet = fireball
+}else{
+  UnitTypes.alpha.weapons.get(0).bullet = zapzap
+}
