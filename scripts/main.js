@@ -42,3 +42,7 @@ Blocks.mechanicalDrill.tier = 100
 Blocks.conveyor.speed = 999999
 Blocks.conveyor.displayedSpeed = 999999
 Blocks.conveyor.health = 666666
+
+//itemsource
+Blocks.itemSource.buildVisibility = BuildVisibility.shown
+Blocks.itemSource.sandboxOnly = false
