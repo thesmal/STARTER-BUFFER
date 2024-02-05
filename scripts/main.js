@@ -1,10 +1,9 @@
 
 
 // declare a fireball bullet
-const fireball = new BasicBulletType
+const fireball = new FireBulletType
 fireball.damage = 900
 fireball.lifetime = 500
-fireball.lightColor = 00ff00
 fireball.fragBullets = 10
 fireball.fragBullet = Blocks.duo.ammoTypes.get(Items.silicon)
 
