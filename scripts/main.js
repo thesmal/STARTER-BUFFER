@@ -55,18 +55,16 @@ Blocks.liquidSource.buildVisibility = BuildVisibility.shown
 Blocks.stoneWall.destructible = true
 Blocks.stoneWall.buildVisibility = BuildVisibility.shown
 
-//listen for the client load event
-Events.on(ClientLoadEvent, () => {
-  //get the script console fragment
-  let scriptfrag = Vars.ui.scriptfrag;
+//get the console input field
+let input = Vars.ui.scriptfrag.getTextField();
 
-  //check if the last command is "wut"
-  if(scriptfrag.getLastCommand() == "wut"){
-    //print "lol" to the console
-    scriptfrag.addMessage("[accent]lol[]");
-    //toggle the value of BT
-    BT = !BT;
-  }
+//get the text input from the console
+let text = input.getText();
+
+if (text == "wut") {
+  BT = !BT
+}
+
 
   //do something based on the value of BT
   if(BT){
