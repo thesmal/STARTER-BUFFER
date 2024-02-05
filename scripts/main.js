@@ -67,4 +67,3 @@ function wut() {
     UnitTypes.alpha.weapons.get(0).bullet = zapzap
   }
 });
-
