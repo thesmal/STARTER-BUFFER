@@ -45,7 +45,5 @@ Blocks.conveyor.health = 666666
 
 //other junk
 Blocks.itemSource.buildVisibility = BuildVisibility.shown
-Blocks.itemSource.buildVisibility = BuildVisibility.sandboxOnly = false
 Blocks.stoneWall.destructible = true
 Blocks.stoneWall.buildVisibility = BuildVisibility.shown
-Blocks.stoneWall.buildVisibility = BuildVisibility.editorOnly = false
