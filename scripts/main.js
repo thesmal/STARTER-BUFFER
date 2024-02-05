@@ -1,6 +1,6 @@
 let BT = true
 //lightning dude
-zapzap = new LightningBulletType
+const zapzap = new LightningBulletType
 zapzap.damage = 99999999
 zapzap.range = 100
 
