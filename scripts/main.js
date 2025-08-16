@@ -55,6 +55,10 @@ Blocks.mechanicalDrill.tier = 100
 Blocks.plasmaBore.health = 999999
 Blocks.plasmaBore.drillTime = 1
 
+// Impact Drill
+Blocks.impactDrill.health = 999999
+Blocks.impactDrill.drillTime = 1
+
 // Cliff Crusher
 Blocks.cliffCrusher.health = 999999
 Blocks.cliffCrusher.drillTime = 1
