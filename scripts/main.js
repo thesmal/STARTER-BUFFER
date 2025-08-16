@@ -22,29 +22,22 @@ UnitTypes.evoke.itemCapacity = 99999
 UnitTypes.evoke.mineSpeed = 999999
 UnitTypes.evoke.buildSpeed = 999999
 
-// Stell
-UnitTypes.stell.weapons.get(0).bullet = fireball
-UnitTypes.stell.health = 99999
-UnitTypes.stell.range = 200
-
 // Core Upgrade
 Blocks.coreShard.health = 99999
 Blocks.coreShard.itemCapacity = 99999
 Blocks.coreBastion.health = 99999
 Blocks.coreBastion.itemCapacity = 99999
 
-// Duo & Scatter & Breach
+// Duo & Scatter
 Blocks.duo.ammoTypes.get(Items.copper).damage = 999999
 Blocks.duo.health = 999999
 Blocks.scatter.targetGround = true
 Blocks.scatter.health = 999999
 Blocks.scatter.ammoTypes.get(Items.lead).collidesGround = true
-Blocks.breach.ammoTypes.get(Items.beryllium).damage = 999999
-Blocks.breach.health = 999999
 
 // Walls
 Blocks.copperWall.health = 999999
-Blocks.berylliumWall.health = 999999
+Blocks.berylliumWall.health = 6666
 
 // Mechanical Drill
 Blocks.mechanicalDrill.health = 999999
