@@ -39,6 +39,11 @@ Blocks.scatter.ammoTypes.get(Items.lead).collidesGround = true
 Blocks.copperWall.health = 999999
 Blocks.berylliumWall.health = 6666
 
+//Mender
+Blocks.mender.range = 2763
+Blocks.mender.reload = 1
+Blocks.mender.healPercent = 99
+
 // Mechanical Drill
 Blocks.mechanicalDrill.health = 999999
 Blocks.mechanicalDrill.drillTime = 1
@@ -71,3 +76,4 @@ Blocks.siliconArcFurnace.craftTime = 1
 Blocks.itemSource.buildVisibility = BuildVisibility.shown
 Blocks.payloadSource.buildVisibility = BuildVisibility.shown
 Blocks.liquidSource.buildVisibility = BuildVisibility.shown
+Blocks.powerSource.buildVisibility = BuildVisibility.shown
