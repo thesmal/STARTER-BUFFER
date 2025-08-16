@@ -64,8 +64,8 @@ Blocks.conveyor.health = 666666
 Blocks.duct.itemCapacity = 666
 Blocks.duct.health = 666666
 
-// Silicon
-Blocks.siliconArcFurnace.productionTime = 1
+// Silicon Arc Furnace
+Blocks.siliconArcFurnace.craftTime = 1
 
 // CREATIVE MODE STUFFFFFF
 Blocks.itemSource.buildVisibility = BuildVisibility.shown
