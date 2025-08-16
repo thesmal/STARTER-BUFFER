@@ -5,9 +5,6 @@ fireball.lifetime = 500
 fireball.fragBullets = 10
 fireball.fragBullet = Blocks.duo.ammoTypes.get(Items.silicon)
 
-
-
-
 // Make Alpha OP
 UnitTypes.alpha.weapons.get(0).bullet = fireball
 UnitTypes.alpha.health = 99999
