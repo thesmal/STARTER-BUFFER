@@ -57,7 +57,6 @@ Blocks.mechanicalDrill.tier = 100
 // Plasma Bore
 Blocks.plasmaBore.health = 999999
 Blocks.plasmaBore.drillTime = 1
-Blocks.plasmaBore.powerUse = 1
 
 // Cliff Crusher
 Blocks.cliffCrusher.health = 999999
@@ -73,7 +72,6 @@ Blocks.duct.health = 666666
 
 // Silicon
 Blocks.siliconArcFurnace.productionTime = 1
-Blocks.siliconArcFurnace.powerUse = 1
 
 // CREATIVE MODE STUFFFFFF
 Blocks.itemSource.buildVisibility = BuildVisibility.shown
