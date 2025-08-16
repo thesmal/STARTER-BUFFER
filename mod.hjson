@@ -1,6 +1,6 @@
 {
   "name": "STARTER BUFFER",
-  "version": "6",
+  "version": "7",
   "author": "Thesmal (Before known as LittleBloo)",
   "description": '''
   Buffs the Alpha and Evoke units so its better to stay on the Shard or Bastion core (smallest ones),
@@ -8,9 +8,8 @@
   Changed bullet to Fire bullet for the Alpha (shard and bastion core has alot of hp),
   Mining Speed, Item capacity is also Improved,
   Have a good day!
-  the Duo, Scatter and Breach turrets are also Buffed
-  the Stell Unit is also buffed
-  Copper walls and Beryllium walls are now the best defense in the game
+  the Duo and Scatter turrets are also Buffed
+  Copper walls are now the best defense in the game
   the Mechanical Drill is also the best Drill and can mine anything
   and the Plasma Bore and Impact Drill has been buffed
   Normal Conveyors are also the best along with Ducts.
@@ -20,7 +19,7 @@
   
   Feel free to use this as a base or reference for your mods. (maybe not base)
   '''
-  "minGameVersion": 136
+  "minGameVersion": 146
   "hidden": false
   "hideBrowser": false
 }
